@@ -9,9 +9,7 @@ setup(
     version='0.1.0',
     author='PFE',
     author_email='kontakt@pfe.rs',
-    packages=find_packages(include=[
-        'dtmf'
-    ]),
+    packages=find_packages(),
     package_data={'': ['*.*']},
     license='../../LICENSE',
     install_requires=['numpy', 'scipy', 'matplotlib'],
